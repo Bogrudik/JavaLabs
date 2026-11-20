@@ -1,0 +1,14 @@
+# Результати збірки Maven
+target/
+
+# Файли налаштувань IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Файл, який створює ЛР4 під час запуску
+university.json
+
+# Системні файли
+.DS_Store
+Thumbs.db
