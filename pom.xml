@@ -15,6 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <gson.version>2.13.1</gson.version>
         <junit.version>5.13.4</junit.version>
+        <postgresql.version>42.7.7</postgresql.version>
     </properties>
 
     <dependencies>
@@ -30,6 +31,12 @@
             <artifactId>junit-jupiter</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+        <!-- ЛР5: JDBC-драйвер для PostgreSQL -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>${postgresql.version}</version>
         </dependency>
     </dependencies>
 
