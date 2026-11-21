@@ -1,0 +1,19 @@
+package ua.rudakov.lab4.model;
+
+/**
+ * Стать людини.
+ */
+public enum Sex {
+    MALE("чоловіча"),
+    FEMALE("жіноча");
+
+    private final String title;
+
+    Sex(String title) {
+        this.title = title;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+}
